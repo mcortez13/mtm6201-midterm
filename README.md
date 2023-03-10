@@ -15,3 +15,5 @@ White #f2f2f2
 Green 26a682
 
 Black #3c3b3a
+
+Gray: #3c3b39
