@@ -2,12 +2,13 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
 /*Styling nav bar*/
 
 .main-nav {
     margin: auto;
     width: 100%;
-    height: auto;
+    height: 300px;
     background-color: #3c3b39;
 }
 
@@ -16,44 +17,359 @@
 }
 
 .nav-bar a {
-    text-decoration: none;
     display:block;
+    text-decoration: none;
     font-size: 14pt;
     font-weight: 500;
     color:#f2f2f2; 
 }
 
-li a {
+.nav-bar li {
     display: block;
     text-align: center;
     padding: 17px 10px;
-    text-decoration: none;
 }
 
 .logo img {
     display:block;
     height: 90px;
+    margin: 0 auto;
+}
+
+
+/*Adding selectors to nav bar*/
+
+.main-nav .home a:link {
+    font-weight: 800;
+}
+
+.nav-bar a:hover {
+    color:#26a682;
 }
 
 
 /*Styling header container*/
 
 .header-container {
-    margin: auto;
-    width: 75%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
 }
 
 .header-container h1 {
     font-size: 33pt;
     font-weight: 700;
     color:#3c3b39;
+    text-align: start;
 }
 
 .header-container p {
     font-size: 17pt;
     color:#3c3b39;
     font-weight: 400;
-    line-height: 35px;
+    line-height: 38px;
+    text-align: start;
+}
+
+
+/*Styling icons and text*/
+
+.fas {
+    color:#3c3b39;
+    font-size:2.5rem;
+    margin: 0 auto;
+}
+
+.icons p {
+    font-size: 14pt;
+    color: #26a682;
+    font-weight: 400;
+    margin-top: auto;
+    text-align: center;
+}
+
+
+/*Using flexbox to rearrange icons*/
+
+.icons {
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    width: auto;
+    height:auto;
+    text-align: center;
+}
+
+.icons .bowling {
+    flex-grow:1;
+    flex-basis:40%;
+    margin-right: 70px;
+}
+
+.icons .climbing {
+    flex-grow:1;
+    flex-basis:40%;
+}
+
+.icons .fitness {
+    flex-grow:1;
+    flex-basis:40%;
+    margin-right: 70px;
+}
+
+.icons .court {
+    flex-grow:1;
+    flex-basis:40%;
+}
+
+
+/*Styling button*/
+
+.header-container button {
+    font-size: 25pt;
+    font-weight: 700;
+    text-align: center;
+    color: #f2f2f2;
+    background-color: #26a682;
+    border: none;
+    border-radius:50px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    width: 350px;
+    box-shadow: 2px 8px 15px lightslategray;
+    margin-bottom: 60px;
+}
+
+
+/*Styling image*/
+
+.header-container img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/*Styling main content, scroll icon not visible on mobile*/
+
+.scroll {
+    display: none;
+}
+
+.discover1 {
+    text-align: end;
+    width: 0 auto;
+    margin: 0 auto;
+}
+
+.discover1 img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.discover1 h2 {
+    margin: 0 auto;
+    margin-top:25px;
+    width: 80%;
+    color: #3c3b39;
+    font-size: 29pt;
+    font-style: italic;
+    font-weight: 600;
+    text-align: start;
+}
+
+.discover1 h3 {
+    margin: 0 auto;
+    width: 80%;
+    color:#26a682;
+    font-size: 19pt;
+    font-weight: 500;
+    margin-top:8px;
+    text-align: start;
+}
+
+.discover1 p {
+    margin: 0 auto;
+    width: 80%;
+    color:#3c3b39;
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 30pt;
+    margin-top:8px;
+    text-align: start;
+    margin-bottom: 25px;
+}
+
+.discover1 button {
+    margin: 0 auto;
+    width: 190px;
+    font-size: 18pt;
+    font-weight: 700;
+    text-align: center;
+    color: #f2f2f2;
+    background-color: #26a682;
+    border: none;
+    border-radius:50px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 2px 8px 15px lightslategray;
+    margin-bottom: 70px;
+    margin-right:9%;
+}
+
+
+/*Styling main content > SA President banner*/
+
+.president {
+    background-color: #3c3b39;
+    margin: 0 auto;
+    width: 100%;
+    height:auto;
+    padding: 20px 0px 20px 0px;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.president img {
+    margin: 0 auto;
+    width: 40%;
+    border: 6px solid #f2f2f2;
+    border-radius:100%;
+}
+
+.president h4 {
+    font-size: 19pt;
+    line-height: 27pt;
+}
+
+.president p {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 30pt;
+    text-align: start;
+    margin-bottom: 25px;
+}
+
+
+/*Styling discover2*/
+
+
+.discover2 {
+    text-align: end;
+    width: 0 auto;
+    margin: 0 auto;
+}
+
+.discover2 img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.discover2 h2 {
+    margin: 0 auto;
+    margin-top:25px;
+    width: 80%;
+    color: #3c3b39;
+    font-size: 29pt;
+    font-style: italic;
+    font-weight: 600;
+    text-align: start;
+}
+
+.discover2 h3 {
+    margin: 0 auto;
+    width: 80%;
+    color:#26a682;
+    font-size: 19pt;
+    font-weight: 500;
+    margin-top:8px;
+    text-align: start;
+}
+
+.discover2 p {
+    margin: 0 auto;
+    width: 80%;
+    color:#3c3b39;
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 30pt;
+    margin-top:8px;
+    text-align: start;
+    margin-bottom: 25px;
+}
+
+.discover2 button {
+    margin: 0 auto;
+    width: 190px;
+    font-size: 18pt;
+    font-weight: 700;
+    text-align: center;
+    color: #f2f2f2;
+    background-color: #26a682;
+    border: none;
+    border-radius:50px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 2px 8px 15px lightslategray;
+    margin-bottom: 70px;
+    margin-right:9%;
+}
+
+
+/*Styling footer*/
+
+footer {
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #3c3b39;
+    color:#f2f2f2
+}
+
+footer p {
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.footer-buttons .fab {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.footer-buttons button {
+    background-color:#3c3b39;
+    border:none;
+}
+
+.fab {
+    text-align: center;
+    color:#f2f2f2;
+    font-size: 24pt;
+}
+
+
+/*Styling back to top arrow*/
+
+.back-arrow {
+    color:#f2f2f2;
+    text-align: end;
+    font-size: 7pt;
+    width: 90%;
+}
+
+footer .back-arrow {
+    background-color:#3c3b39;
+    border:none;
+}
+
+footer .fas {
+    color: #26a682;
+    font-size: 19pt;
+    text-align: end;
+    margin-right: -37px;
+    position: relative;
+    bottom: 20px;
 }
 
 
@@ -95,7 +411,7 @@ li a {
         color:#f2f2f2; 
     }
 
-    li a {
+    .nav-bar li {
         float:right;
         display: block;
         text-align: center;
