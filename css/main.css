@@ -374,53 +374,147 @@ footer .fas {
 
 
 
-
-
-
-
-
-
-
+/*Styling for tablet screen size*/
 
 @media screen and (min-width:600px) {
 
-}
+    /*Styling nav bar*/
 
-
-
-@media screen and (min-width:900px) {
-    /*Styling header*/
-    /*
     .main-nav {
-        margin: auto;
+        margin: 0 auto;
         width: 100%;
-        height: 50px;
+        height: 60px;
         background-color: #3c3b39;
     }
 
     .nav-bar {
         list-style: none;
-        margin-right: 90px;
+        display:flex;
+        flex-wrap: wrap;
     }
 
     .nav-bar a {
         text-decoration: none;
-        display:block;
-        font-size: 12px;
-        font-weight: 500;
-        color:#f2f2f2; 
+        font-size: 12pt;
+        font-weight: 400;
+        color:#f2f2f2;
+    }
+
+    .nav-bar img {
+        height: 65px;
+        margin-top: -20px;
     }
 
     .nav-bar li {
         float:right;
         display: block;
-        text-align: center;
-        padding: 0px 16px;
+        padding: 17px 50px 0px 10px;
         text-decoration: none;
     }
 
-    .logo {
-        height: 20px;
-        width:50px;
-    }*/
+
+    /*Styling header container*/
+
+    .header-container {
+        margin: 0 auto;
+        width: 85%;
+        text-align: center;
+    }
+
+    .header-container h1 {
+        font-size: 43pt;
+        font-weight: 700;
+        color:#3c3b39;
+        text-align: start;
+    }
+
+    .header-container p {
+        font-size: 14pt;
+        color:#3c3b39;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: start;
+    }
+
+    /*Styling icons and text*/
+
+    .fas {
+        color:#3c3b39;
+        font-size:2rem;
+        margin: 0 auto;
+    }
+
+    .icons p {
+        font-size: 10pt;
+        color: #26a682;
+        font-weight: 400;
+        margin-top: auto;
+        text-align: center;
+    }
+
+
+    /*Using flexbox to rearrange icons*/
+
+    .icons {
+        display: flex;
+        flex-wrap:nowrap;
+        margin: 0 auto;
+        width: auto;
+        height:auto;
+        text-align: center;
+    }
+
+    .icons .bowling {
+        flex-grow:1;
+        flex-basis:10%;
+    }
+
+    .icons .climbing {
+        flex-grow:1;
+        flex-basis:20%;
+    }
+
+    .icons .fitness {
+        flex-grow:1;
+        flex-basis:20%;
+    }
+
+    .icons .court {
+        flex-grow:1;
+        flex-basis:20%;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Styling for desktop size*/
+
+@media screen and (min-width:900px) {
+    /*Styling header*/
+    
+
+
+   
+
+    
 }
