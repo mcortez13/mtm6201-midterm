@@ -46,3 +46,10 @@
 .nav-bar a:hover {
     color:#26a682;
 }
+
+
+/*Styling header container*/
+
+.header-container {
+    margin: 0 auto;
+}
