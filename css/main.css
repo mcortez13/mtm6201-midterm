@@ -374,6 +374,11 @@ footer .fas {
 
 
 
+
+
+
+
+
 /*Styling for tablet screen size*/
 
 @media screen and (min-width:600px) {
@@ -461,41 +466,298 @@ footer .fas {
         margin: 0 auto;
         width: auto;
         height:auto;
-        text-align: center;
     }
 
     .icons .bowling {
         flex-grow:1;
-        flex-basis:10%;
+        flex-basis:auto;
     }
 
     .icons .climbing {
         flex-grow:1;
-        flex-basis:20%;
+        flex-basis:auto;
     }
 
     .icons .fitness {
         flex-grow:1;
-        flex-basis:20%;
+        flex-basis:auto;
     }
 
     .icons .court {
         flex-grow:1;
-        flex-basis:20%;
+        flex-basis:auto;
     }
 
 
+    /*Styling button*/
+
+    .header-container button {
+        font-size: 23pt;
+        font-weight: 700;
+        text-align: center;
+        color: #f2f2f2;
+        background-color: #26a682;
+        border: none;
+        border-radius:50px;
+        padding: 10px 20px 10px 20px;
+        margin: 0 auto;
+        width: 230px;
+        box-shadow: 2px 8px 15px lightslategray;
+        margin-bottom: 60px;
+    }
 
 
+    /*Styling image*/
+
+    .header-container img {
+        margin: 0 auto;
+        width: 60%;
+        margin-bottom: -35px;
+    }
 
 
+    /*Styling main content, scroll icon visible*/
+
+    .scroll {
+        display: block;
+        text-align: center;
+        font-size: 9pt;
+        margin-bottom:35px;
+    }
+
+    .fa-arrow-circle-down {
+        color:#26a682;
+        font-size: 19pt;
+    }
 
 
+    .discover1 {
+        text-align: end;
+        width: 0 auto;
+        margin: auto;
+        max-height: 100%;
+    }
+
+    .discover1 img {
+        margin: 0 auto;
+        width: 100%;
+        height: 200px;
+    }
+
+    .discover1 h2 {
+        margin: 0 auto;
+        margin-top:22px;
+        width: 80%;
+        color: #3c3b39;
+        font-size: 27pt;
+        font-style: italic;
+        font-weight: 600;
+        text-align: start;
+    }
+
+    .discover1 h3 {
+        margin: 0 auto;
+        width: 80%;
+        color:#26a682;
+        font-size: 18pt;
+        font-weight: 500;
+        margin-top:8px;
+        text-align: start;
+    }
+
+    .discover1 p {
+        margin: 0 auto;
+        width: 80%;
+        color:#3c3b39;
+        font-size: 10pt;
+        font-weight: 400;
+        line-height: 20pt;
+        margin-top:8px;
+        text-align: start;
+        margin-bottom: 25px;
+    }
+
+    .discover1 button {
+        margin: 0 auto;
+        width: 190px;
+        font-size: 15pt;
+        font-weight: 700;
+        text-align: center;
+        color: #f2f2f2;
+        background-color: #26a682;
+        border: none;
+        border-radius:50px;
+        padding: 7px 20px 7px 20px;
+        box-shadow: 2px 8px 15px lightslategray;
+        margin-bottom: 20px;
+        margin-right:9%;
+    }
+
+
+    /*Styling main content > SA President banner*/
+
+    .president {
+        background-color: #3c3b39;
+        margin: 0 auto;
+        width: 0 auto;
+        height:auto;
+        padding: 20px 0px 20px 0px;
+        color: #f2f2f2;
+        text-align: center;
+        display: flex;
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+
+    .block {
+        margin: 0 auto;
+        width: 0 auto;
+    }
+    .president img {
+        margin: 0 auto;
+        width:130px;
+        height:130px;
+        border: 6px solid #f2f2f2;
+        border-radius:100%;
+    }
+
+    .president h4 {
+        font-size: 14pt;
+        line-height: 20pt;
+    }
+
+    .president p {
+        margin: 0 auto;
+        width: 50%;
+        font-size: 12pt;
+        font-weight: 500;
+        line-height: 23pt;
+        text-align: start;
+    }
+
+
+    /*Styling discover2*/
+
+    .discover2 {
+        text-align: end;
+        width: 0 auto;
+        margin: auto;
+        max-height: 100%;
+    }
+
+    .discover2 img {
+        margin: 0 auto;
+        width: 100%;
+        height: 200px;
+    }
+
+    .discover2 h2 {
+        margin: 0 auto;
+        margin-top:22px;
+        width: 80%;
+        color: #3c3b39;
+        font-size: 27pt;
+        font-style: italic;
+        font-weight: 600;
+        text-align: start;
+    }
+
+    .discover2 h3 {
+        margin: 0 auto;
+        width: 80%;
+        color:#26a682;
+        font-size: 18pt;
+        font-weight: 500;
+        margin-top:8px;
+        text-align: start;
+    }
+
+    .discover2 p {
+        margin: 0 auto;
+        width: 80%;
+        color:#3c3b39;
+        font-size: 10pt;
+        font-weight: 400;
+        line-height: 20pt;
+        margin-top:8px;
+        text-align: start;
+        margin-bottom: 25px;
+    }
+
+    .discover2 button {
+        margin: 0 auto;
+        width: 190px;
+        font-size: 15pt;
+        font-weight: 700;
+        text-align: center;
+        color: #f2f2f2;
+        background-color: #26a682;
+        border: none;
+        border-radius:50px;
+        padding: 7px 20px 7px 20px;
+        box-shadow: 2px 8px 15px lightslategray;
+        margin-bottom: 37px;
+        margin-right:9%;
+    }
+
+
+    /*Styling footer*/
+
+    footer {
+        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
+        background-color: #3c3b39;
+        color:#f2f2f2
+    }
+
+    footer p {
+        font-size: 18pt;
+        font-weight: 400;
+    }
+
+    .footer-buttons .fab {
+        display: flex;
+        flex-wrap:wrap;
+    }
+
+    .footer-buttons button {
+        background-color:#3c3b39;
+        border:none;
+    }
+
+    .fab {
+        text-align: center;
+        color:#f2f2f2;
+        font-size: 22pt;
+    }
+
+
+    /*Styling back to top arrow*/
+
+    .back-arrow {
+        color:#f2f2f2;
+        text-align: end;
+        font-size: 7pt;
+        width: 90%;
+    }
+
+    footer .back-arrow {
+        background-color:#3c3b39;
+        border:none;
+    }
+
+    footer .fas {
+        color: #26a682;
+        font-size: 19pt;
+        text-align: end;
+        margin-right: -37px;
+        position: relative;
+    }
 
 }
-
-
-
 
 
 
@@ -510,7 +772,65 @@ footer .fas {
 /*Styling for desktop size*/
 
 @media screen and (min-width:900px) {
-    /*Styling header*/
+    
+    /*Styling nav bar*/
+
+    .main-nav {
+        margin: 0 auto;
+        width: 100%;
+        height: 60px;
+        background-color: #3c3b39;
+    }
+
+    .nav-bar {
+        list-style: none;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .nav-bar a {
+        text-decoration: none;
+        font-size: 12pt;
+        font-weight: 400;
+        color:#f2f2f2;
+    }
+
+    .nav-bar img {
+        height: 65px;
+        margin-top: -20px;
+    }
+
+    .nav-bar li {
+        float:right;
+        display: block;
+        padding: 17px 50px 0px 10px;
+        text-decoration: none;
+    }
+
+
+    /*Styling header container*/
+
+    .header-container {
+        margin: 0 auto;
+        width: 85%;
+        text-align: center;
+    }
+
+    .header-container h1 {
+        font-size: 43pt;
+        font-weight: 700;
+        color:#3c3b39;
+        text-align: start;
+    }
+
+    .header-container p {
+        font-size: 10pt;
+        color:#3c3b39;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: start;
+    }
+
     
 
 
