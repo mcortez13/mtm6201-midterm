@@ -771,7 +771,7 @@ footer .fas {
 
 /*Styling for desktop size*/
 
-@media screen and (min-width:900px) {
+@media screen and (min-width:992px) {
     
     /*Styling nav bar*/
 
@@ -779,7 +779,7 @@ footer .fas {
         margin: 0 auto;
         width: 100%;
         height: 60px;
-        background-color: #3c3b39;
+        background-color:#3c3b39;
     }
 
     .nav-bar {
@@ -798,6 +798,7 @@ footer .fas {
     .nav-bar img {
         height: 65px;
         margin-top: -20px;
+        width:200px;
     }
 
     .nav-bar li {
@@ -807,34 +808,331 @@ footer .fas {
         text-decoration: none;
     }
 
-
     /*Styling header container*/
 
     .header-container {
         margin: 0 auto;
         width: 85%;
-        text-align: center;
+        display: flex;
+        flex-wrap: unwrap;
+        text-align: start;
+        padding-top:70px;
     }
 
     .header-container h1 {
-        font-size: 43pt;
+        font-size: 27pt;
         font-weight: 700;
         color:#3c3b39;
         text-align: start;
     }
 
     .header-container p {
-        font-size: 10pt;
+        font-size: 12pt;
         color:#3c3b39;
         font-weight: 500;
-        line-height: 27px;
+        line-height: 23px;
         text-align: start;
     }
 
-    
 
+    /*Styling icons and text*/
+
+    .fas {
+        color:#3c3b39;
+        font-size:1.4rem;
+        margin: 0 auto;
+    }
+
+    .icons p {
+        font-size: 8pt;
+        color: #26a682;
+        font-weight: 400;
+        margin-top: auto;
+        text-align: center;
+    }
+
+
+    /*Styling button*/
+
+    .header-container button {
+        font-size: 18pt;
+        font-weight: 600;
+        text-align: center;
+        color: #f2f2f2;
+        background-color: #26a682;
+        border: none;
+        border-radius:50px;
+        padding: 7px 5px 7px 5px;
+        margin: 0 auto;
+        width: 200px;
+        box-shadow: 2px 8px 15px lightslategray;
+        margin-bottom: 60px;
+    }
+
+
+    /*Styling image*/
+
+    .header-container img {
+        margin: 0 auto;
+        width: 45%;
+        margin-bottom: -35px;
+    }
+
+
+    /*Styling main content, scroll icon visible*/
+
+    .scroll {
+        display: block;
+        text-align: center;
+        font-size: 9pt;
+        margin-bottom:35px;
+    }
+
+    .fa-arrow-circle-down {
+        color:#26a682;
+        font-size: 23pt;
+    }
 
    
+    .discover1 {
+        margin: 0 auto;
+        width: 0 auto;
+        max-width:85%;
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: end;
+        margin-top: 80px;
+        padding-bottom:40px;
+    }
 
-    
+    .discover1 img {
+        margin: 0 auto;
+        width: 100%;
+        height: 300px;
+    }
+
+    .discover1 h2 {
+        margin: 0 auto;
+        margin-top:22px;
+        width: 80%;
+        color: #3c3b39;
+        font-size: 22pt;
+        font-style: italic;
+        font-weight: 600;
+        text-align: start;
+    }
+
+    .discover1 h3 {
+        margin: 0 auto;
+        width: 80%;
+        color:#26a682;
+        font-size: 16pt;
+        font-weight: 500;
+        margin-top:8px;
+        text-align: start;
+    }
+
+    .discover1 p {
+        margin: 0 auto;
+        width: 0 auto;
+        max-width:85%;
+        color:#3c3b39;
+        font-size: 10pt;
+        font-weight: 400;
+        line-height: 20pt;
+        margin-top:8px;
+        text-align: start;
+        margin-bottom: 25px;
+    }
+
+    .discover1 button {
+        margin: 0 auto;
+        width: 160px;
+        font-size: 13pt;
+        font-weight: 700;
+        text-align: center;
+        color: #f2f2f2;
+        background-color: #26a682;
+        border: none;
+        border-radius:50px;
+        padding: 7px 20px 7px 20px;
+        box-shadow: 2px 8px 15px lightslategray;
+        margin-bottom: 20px;
+    }
+
+
+    /*Styling main content > SA President banner*/
+
+    .president {
+        background-color: #3c3b39;
+        margin: 0 auto;
+        width: 0 auto;
+        height:100px;
+        padding: 20px 0px 20px 0px;
+        color: #f2f2f2;
+        text-align: center;
+        display: flex;
+        flex-wrap:wrap;
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+
+    .block {
+        margin: 0 auto;
+        width: 0 auto;
+        display: flex;
+    }
+
+    .president img {
+        margin: 0 auto;
+        width:90px;
+        height:90px;
+        border: 6px solid #f2f2f2;
+        border-radius:100%;
+        margin-right:40px;
+    }
+
+    .president h4 {
+        font-size: 13pt;
+        line-height: 20pt;
+        padding-left:60px;
+    }
+
+    .president p {
+        margin: 0 auto;
+        width: 50%;
+        font-size: 12pt;
+        font-weight: 400;
+        line-height: 18pt;
+        text-align: start;
+    }
+
+
+    .discover2 {
+        margin: 0 auto;
+        width: 0 auto;
+        max-width:95%;
+        display: flex;
+        flex-wrap:nowrap;
+        flex-direction: row-reverse;
+        text-align: end;
+        margin-top: 80px;
+        padding-bottom:40px;
+    }
+
+    .discover2 img {
+        margin: 0 auto;
+        width: 90%;
+        height: 300px;
+        margin-right:80px;
+    }
+
+    .discover2 h2 {
+        margin: 0 auto;
+        margin-top:22px;
+        width: 80%;
+        color: #3c3b39;
+        font-size: 22pt;
+        font-style: italic;
+        font-weight: 600;
+        text-align: start;
+    }
+
+    .discover2 h3 {
+        margin: 0 auto;
+        max-width:80%;
+        width: 100%;
+        color:#26a682;
+        font-size: 16pt;
+        font-weight: 500;
+        margin-top:8px;
+        text-align: start;
+    }
+
+    .discover2 p {
+        margin: 0 auto;
+        width: 0 auto;
+        max-width:85%;
+        color:#3c3b39;
+        font-size: 10pt;
+        font-weight: 400;
+        line-height: 20pt;
+        margin-top:8px;
+        text-align: start;
+        margin-bottom: 25px;
+    }
+
+    .discover2 button {
+        margin: 0 auto;
+        width: 160px;
+        font-size: 13pt;
+        font-weight: 700;
+        text-align: center;
+        color: #f2f2f2;
+        background-color: #26a682;
+        border: none;
+        border-radius:50px;
+        padding: 7px 20px 7px 20px;
+        box-shadow: 2px 8px 15px lightslategray;
+        margin-bottom: 20px;
+        margin-right:50px;
+    }
+
+
+    /*Styling footer*/
+
+    footer {
+        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
+        background-color: #3c3b39;
+        color:#f2f2f2
+    }
+
+    footer p {
+        font-size: 15pt;
+        font-weight: 400;
+    }
+
+    .footer-buttons .fab {
+        display: flex;
+        flex-wrap:wrap;
+    }
+
+    .footer-buttons button {
+        background-color:#3c3b39;
+        border:none;
+    }
+
+    .fab {
+        text-align: center;
+        color:#f2f2f2;
+        font-size: 20pt;
+    }
+
+
+    /*Styling back to top arrow*/
+
+    .back-arrow {
+        color:#f2f2f2;
+        text-align: end;
+        font-size: 7pt;
+        width: 90%;
+    }
+
+    footer .back-arrow {
+        background-color:#3c3b39;
+        border:none;
+    }
+
+    footer .fas {
+        color: #26a682;
+        font-size: 28pt;
+        text-align: end;
+        margin-right: -41px;
+        position: relative;
+    }
+
 }
