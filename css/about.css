@@ -355,4 +355,179 @@ footer .fas {
 /*Styling for tablet screen size*/
 
 @media screen and (min-width:600px) {
+
+    /*Styling nav bar*/
+
+    .main-nav {
+        margin: 0 auto;
+        width: 100%;
+        height: 60px;
+        background-color: #3c3b39;
+    }
+
+    .nav-bar {
+        list-style: none;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .nav-bar a {
+        text-decoration: none;
+        font-size: 12pt;
+        font-weight: 400;
+        color:#f2f2f2;
+    }
+
+    .nav-bar img {
+        height: 65px;
+        margin-top: -20px;
+    }
+
+    .nav-bar li {
+        float:right;
+        display: block;
+        padding: 17px 50px 0px 10px;
+        text-decoration: none;
+    }
+
+
+    /*Styling header container*/
+
+    .header-container {
+        margin: 0 auto;
+        width: 85%;
+        text-align: center;
+    }
+
+    .header-container h1 {
+        font-size: 39pt;
+        font-weight: 700;
+        color:#3c3b39;
+        text-align: start;
+    }
+
+    .header-container p {
+        font-size: 14pt;
+        color:#3c3b39;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: start;
+    }
+
+
+    /*Styling house image*/
+
+    .header-container img {
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+
+    /*Styling about section*/
+
+    .about-section {
+        text-align: end;
+        width: 0 auto;
+        margin: 0 auto; 
+    }
+
+    .about-header {
+        background: linear-gradient(to top, #26a682, #0a6e3f), url("about.jpg") no-repeat top center;
+    }
+
+    .about-section img {
+        margin: 0 auto;
+        width: 100%;
+        opacity:50%;
+        height:200px;
+    }
+
+    .about-section h1 {
+        margin: 0 auto;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        color:#f2f2f2;
+        font-size: 40pt;
+        font-weight: 600;
+        margin-top: -140px;
+    }
+
+    .about-content {
+        margin: 0 auto;
+        width: 80%;
+        text-align: start;
+        margin-bottom:30px;
+    }
+
+    .about-content h2 {
+        color: #3c3b39;
+        font-size: 24pt;
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    .about-content p {
+        font-size:12pt;
+        color: #3c3b39;
+        line-height: 27pt;
+        margin-top:-20px;
+        font-weight: 400;
+    }
+
+
+    /*Styling services section*/
+
+    .services-section {
+        width: 0 auto;
+        margin: 0 auto; 
+    }
+
+    .services-header {
+        background: linear-gradient(to top, #26a682, #0a6e3f), url("services.jpg") no-repeat top center;
+    }
+
+    .services-header img {
+        margin: 0 auto;
+        width: 100%;
+        opacity:50%;
+        height:200px;
+    }
+
+    .services-section h1 {
+        margin: 0 auto;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        color:#f2f2f2;
+        font-size: 40pt;
+        font-weight: 600;
+        margin-top: -140px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
