@@ -1,3 +1,749 @@
 :root {
     font-family: 'Raleway', sans-serif;
 }
+
+/*Styling nav bar*/
+
+.main-nav {
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    background-color: #3c3b39;
+}
+
+.nav-bar {
+    list-style: none;
+}
+
+.nav-bar a {
+    display:block;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 500;
+    color:#f2f2f2; 
+}
+
+.nav-bar li {
+    display: block;
+    text-align: center;
+    padding: 17px 10px;
+}
+
+.logo img {
+    display:block;
+    height: 90px;
+    margin: 0 auto;
+}
+
+
+/*Adding selectors to nav bar*/
+
+.main-nav .contact a:link {
+    font-weight: 800;
+}
+
+.nav-bar a:hover {
+    color:#26a682;
+}
+
+
+/*Styling header info*/
+
+.grid1 {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.grid1 h1 {
+    font-size: 33pt;
+    font-weight: 700;
+    color:#3c3b39;
+    text-align: start;
+}
+
+.grid1 p {
+    font-size: 17pt;
+    color:#3c3b39;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: start;
+}
+
+.grid1 img {
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+/*Styling contact form*/
+
+.grid2 {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.grid2 form {
+    background-color: #26a682;
+    border-radius: 20px;
+    color: #f2f2f2;
+}
+
+.grid2 fieldset {
+    border: none;
+}
+
+.grid2 input {
+    margin: 0 auto;
+    margin-top:10px;
+    width: 93%;
+    border: none;
+    border-radius:40px;
+    padding: 5px 10px 5px 10px;
+}
+
+#message {
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom:30px;
+}
+
+.grid2 h3 {
+    font-size: 29pt;
+    font-weight: 700;
+    color:#f2f2f2;
+    text-align: start;
+    padding:20px 15px 0px 15px;
+}
+
+.grid2 button {
+    margin-top:20px;
+    font-size: 25pt;
+    font-weight: 700;
+    text-align: center;
+    color: #f2f2f2;
+    background-color:#3c3b39;
+    border: none;
+    border-radius:50px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    width: 350px;
+    box-shadow: 2px 8px 15px lightslategray;
+    margin-bottom: 25px;
+}
+
+
+/*Styling our location*/
+
+.grid3 {
+    margin: 0 auto;
+    width: 80%;
+    margin-top:60px;
+}
+
+.grid3 h1 {
+    font-size: 29pt;
+    font-weight: 700;
+    color:#3c3b39;
+    text-align: start;
+}
+
+.grid3 h3 {
+    font-size: 19pt;
+    line-height: 23pt;
+    font-weight: 500;
+    color:#3c3b39;
+    text-align: start;
+}
+
+.grid3 p {
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 26pt;
+}
+
+
+/*Styling map to full width*/
+
+
+
+.locationmap iframe {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/*Styling footer*/
+
+footer {
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #3c3b39;
+    color:#f2f2f2;
+    margin-top:40px;
+}
+
+footer p {
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.footer-buttons .fab {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.footer-buttons button {
+    background-color:#3c3b39;
+    border:none;
+}
+
+.fab {
+    text-align: center;
+    color:#f2f2f2;
+    font-size: 24pt;
+}
+
+
+/*Styling back to top arrow*/
+
+.back-arrow {
+    color:#f2f2f2;
+    text-align: end;
+    font-size: 7pt;
+    width: 90%;
+}
+
+footer .back-arrow {
+    background-color:#3c3b39;
+    border:none;
+}
+
+footer .fas {
+    color: #26a682;
+    font-size: 19pt;
+    text-align: end;
+    margin-right: -37px;
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+
+
+/*Styling for tablet screen size*/
+
+@media screen and (min-width:600px) {
+
+    /*Styling nav bar*/
+
+    .main-nav {
+        margin: 0 auto;
+        width: 100%;
+        height: 60px;
+        background-color: #3c3b39;
+    }
+
+    .nav-bar {
+        list-style: none;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .nav-bar a {
+        text-decoration: none;
+        font-size: 12pt;
+        font-weight: 400;
+        color:#f2f2f2;
+    }
+
+    .nav-bar img {
+        height: 65px;
+        margin-top: -20px;
+    }
+
+    .nav-bar li {
+        float:right;
+        display: block;
+        padding: 17px 50px 0px 10px;
+        text-decoration: none;
+    }
+
+
+    /*Styling header info*/
+
+    .grid1 {
+        margin: 0 auto;
+        width: 85%;
+        text-align: center;
+    }
+
+    .grid1 h1 {
+        font-size: 33pt;
+        font-weight: 700;
+        color:#3c3b39;
+        text-align: start;
+    }
+
+    .grid1 p {
+        font-size: 14pt;
+        color:#3c3b39;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: start;
+    }
+
+    .grid1 img {
+        margin: 0 auto;
+        width: 65%;
+        margin-bottom: 50px;
+    }
+
+
+    /*Styling contact form*/
+
+    .grid2 {
+        margin: 0 auto;
+        width: 80%;
+        margin-top:-40px;
+    }
+
+    .grid2 form {
+        background-color: #26a682;
+        border-radius: 20px;
+        color: #f2f2f2;
+    }
+
+    .grid2 fieldset {
+        border: none;
+        text-align: start;
+    }
+
+    .grid2 input {
+        margin: 0 auto;
+        margin-top:10px;
+        width: 95%;
+        border: none;
+        border-radius:40px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    #message {
+        height: 100px;
+        border-radius: 10px;
+        margin-bottom:30px;
+    }
+
+    .grid2 h3 {
+        font-size: 33pt;
+        font-weight: 700;
+        color:#f2f2f2;
+        text-align: start;
+        padding:20px 15px 0px 15px;
+    }
+
+    .grid2 button {
+        margin-top:20px;
+        font-size: 17pt;
+        font-weight: 700;
+        text-align: center;
+        color: #f2f2f2;
+        background-color:#3c3b39;
+        border: none;
+        border-radius:50px;
+        padding: 10px 20px 10px 20px;
+        margin: 0 auto;
+        width: 150px;
+        box-shadow: 2px 8px 15px lightslategray;
+        margin-bottom: 25px;
+    }
+
+    .button {
+        text-align: end;
+    }
+
+
+    /*Styling our location*/
+
+    .grid3 {
+        margin: 0 auto;
+        width: 80%;
+        margin-top:60px;
+    }
+
+    .grid3 h1 {
+        font-size: 33pt;
+        font-weight: 700;
+        color:#3c3b39;
+        text-align: start;
+    }
+
+    .grid3 h3 {
+        font-size: 21pt;
+        line-height: 25pt;
+        font-weight: 500;
+        color:#3c3b39;
+        text-align: start;
+    }
+
+    .grid3 p {
+        font-size: 14pt;
+        font-weight: 300;
+        line-height: 26pt;
+    }
+
+
+    /*Styling map to full width*/
+
+    .locationmap iframe {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+    /*Styling footer*/
+
+    footer {
+        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
+        background-color: #3c3b39;
+        color:#f2f2f2;
+        margin-top: 40px;
+    }
+
+    footer p {
+        font-size: 18pt;
+        font-weight: 400;
+    }
+
+    .footer-buttons .fab {
+        display: flex;
+        flex-wrap:wrap;
+    }
+
+    .footer-buttons button {
+        background-color:#3c3b39;
+        border:none;
+    }
+
+    .fab {
+        text-align: center;
+        color:#f2f2f2;
+        font-size: 22pt;
+    }
+
+
+    /*Styling back to top arrow*/
+
+    .back-arrow {
+        color:#f2f2f2;
+        text-align: end;
+        font-size: 7pt;
+        width: 90%;
+    }
+
+    footer .back-arrow {
+        background-color:#3c3b39;
+        border:none;
+    }
+
+    footer .fas {
+        color: #26a682;
+        font-size: 19pt;
+        text-align: end;
+        margin-right: -37px;
+        position: relative;
+    }
+}
+
+
+
+
+/*Styling for desktop size*/
+
+@media screen and (min-width:992px) {
+
+    /*Styling nav bar*/
+
+    .main-nav {
+        margin: 0 auto;
+        width: 100%;
+        height: 60px;
+        background-color:#3c3b39;
+    }
+
+    .nav-bar {
+        list-style: none;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .nav-bar a {
+        text-decoration: none;
+        font-size: 12pt;
+        font-weight: 400;
+        color:#f2f2f2;
+    }
+
+    .nav-bar img {
+        height: 65px;
+        margin-top: -20px;
+        width:200px;
+    }
+
+    .nav-bar li {
+        float:right;
+        display: block;
+        padding: 17px 50px 0px 10px;
+        text-decoration: none;
+    }
+
+
+    /*4-grid*/
+
+    
+    .fullgrid {
+        width:85%;
+        margin: 0 auto;
+        display:grid;
+        background-color:#f2f2f2;
+        display: grid;
+        grid-template-columns: repeat (4, 2fr);
+        grid-template-areas: 
+        "grid1 grid1 grid2 grid2"
+        "grid3 grid3 grid4 grid4";
+    }
+
+    .grid1 {
+        grid-area: grid1;
+    }
+
+    .grid2 {
+        grid-area: grid2;
+    }
+
+    .grid3 {
+        grid-area: grid3;
+    }
+
+    .locationmap {
+        grid-area: grid4;
+    }
+
+
+    /*Styling each grid element*/
+
+    .grid1 {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        margin-top:50px;
+    }
+
+    .grid1 h1 {
+        font-size: 26pt;
+        font-weight: 700;
+        color:#3c3b39;
+        text-align: start;
+    }
+
+    .grid1 p {
+        font-size: 12pt;
+        width: 80%;
+        color:#3c3b39;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: start;
+    }
+
+    .grid1 img {
+        margin: 0 auto;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+
+
+
+    .grid2 {
+        margin: 0 auto;
+        width: 100%;
+        margin-top:50px;
+    }
+
+    .grid2 form {
+        background-color: #26a682;
+        border-radius: 20px;
+        color: #f2f2f2;
+    }
+
+    .grid2 fieldset {
+        border: none;
+        text-align: start;
+    }
+
+    .grid2 input {
+        margin: 0 auto;
+        margin-top:10px;
+        width: 95%;
+        border: none;
+        border-radius:40px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    #message {
+        height: 100px;
+        border-radius: 10px;
+        margin-bottom:20px;
+    }
+
+    .grid2 h3 {
+        font-size: 26pt;
+        font-weight: 700;
+        color:#f2f2f2;
+        text-align: start;
+        padding:20px 15px 0px 15px;
+    }
+
+    .grid2 button {
+        margin-top:5px;
+        font-size: 17pt;
+        font-weight: 700;
+        text-align: center;
+        color: #f2f2f2;
+        background-color:#3c3b39;
+        border: none;
+        border-radius:50px;
+        padding: 10px 20px 10px 20px;
+        margin: 0 auto;
+        width: 150px;
+        box-shadow: 2px 8px 15px lightslategray;
+       
+    }
+
+    .button {
+        text-align: end;
+    }
+
+
+
+
+    .grid3 {
+        margin: 0 auto;
+        width: 100%;
+        margin-top:50px;
+    }
+
+    .grid3 h1 {
+        font-size: 26pt;
+        font-weight: 700;
+        color:#3c3b39;
+        text-align: start;
+    }
+
+    .grid3 h3 {
+        font-size: 18pt;
+        line-height: 23pt;
+        font-weight: 500;
+        color:#3c3b39;
+        text-align: start;
+    }
+
+    .grid3 p {
+        font-size: 12pt;
+        font-weight: 300;
+        line-height: 26pt;
+    }
+
+
+    .locationmap {
+        width: 450px;
+        height: 100%;
+        margin: 0 auto;
+        padding-top: 40px;
+        margin-bottom:50px;
+    }
+
+    .locationmap iframe {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*Styling footer*/
+
+    footer {
+        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
+        background-color: #3c3b39;
+        color:#f2f2f2
+    }
+
+    footer p {
+        font-size: 15pt;
+        font-weight: 400;
+    }
+
+    .footer-buttons .fab {
+        display: flex;
+        flex-wrap:wrap;
+    }
+
+    .footer-buttons button {
+        background-color:#3c3b39;
+        border:none;
+    }
+
+    .fab {
+        text-align: center;
+        color:#f2f2f2;
+        font-size: 20pt;
+    }
+
+
+    /*Styling back to top arrow*/
+
+    .back-arrow {
+        color:#f2f2f2;
+        text-align: end;
+        font-size: 7pt;
+        width: 90%;
+    }
+
+    footer .back-arrow {
+        background-color:#3c3b39;
+        border:none;
+    }
+
+    footer .fas {
+        color: #26a682;
+        font-size: 28pt;
+        text-align: end;
+        margin-right: -41px;
+        position: relative;
+    }
+
+}

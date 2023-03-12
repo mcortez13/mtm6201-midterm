@@ -32,7 +32,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="fullgrid">
         <div class="grid1">
             <h1>We Want to Hear From You</h1>
             <p>If you have an idea for an activity that you think you and your fellow students would love to participate in that we are not already offering, we want to know about it!</p>
@@ -65,8 +65,10 @@
                     <label for="message">Message</label>
                     <br>
                     <input id="message" type="text" name="message">
-    
-                    <button>Submit</button>
+                    <br>
+                    <div class="button">
+                        <button>Submit</button>
+                    </div>
                 </fieldset>
             </form>
         </div>
@@ -89,14 +91,16 @@
 
     <footer>
         <p>Follow Us</p>
-        <button><i class='fab fa-facebook-square'></i></button>
-        <button><i class='fab fa-instagram'></i></button>
-        <button><i class='fab fa-twitter-square'></i></button>
-        <button><i class='fab fa-youtube'></i></button>
+        <div class="footer-buttons">
+            <button><i class='fab fa-facebook-square'></i></button>
+            <button><i class='fab fa-instagram'></i></button>
+            <button><i class='fab fa-twitter-square'></i></button>
+            <button><i class='fab fa-youtube'></i></button>
+        </div>
 
         <br>
         
-        <button><i class='fas fa-arrow-circle-up'></i>Back to top</button>
+        <button class="back-arrow"><i class='fas fa-arrow-circle-up'></i>Back to top</button>
     </footer>
 
 </body>
