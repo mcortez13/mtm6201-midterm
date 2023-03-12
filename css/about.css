@@ -507,13 +507,37 @@ footer .fas {
     }
 
 
+    /*Styling services with flexbox and add images on table version*/
 
+    .restaurant-content {
+        margin: 0 auto;
+        width: 0 auto;
+        max-width:85%;
+        display: flex;
+        flex-wrap:nowrap;
+        text-align: start;
+        margin-top: 80px;
+        padding-bottom:40px;
+    }
 
+    .bowling-content {
+        margin: 0 auto;
+        width: 0 auto;
+        max-width:85%;
+        display: flex;
+        flex-wrap:nowrap;
+        flex-direction: row-reverse;
+        text-align: start;
+        margin-top: 80px;
+        padding-bottom:40px;
+    }
 
-
-
-
-
+    .services-grid1 img, .services-grid2 img {
+        display:block;
+        width: 150px;
+        height:300px;
+        position: relative;
+    }
 
 
 
