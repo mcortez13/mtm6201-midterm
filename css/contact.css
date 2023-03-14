@@ -162,6 +162,31 @@ a:focus{
     margin-bottom: 25px;
 }
 
+/*Animating button*/
+
+@keyframes scaleButton {
+	0% {
+		transform:scale(1);
+	}
+
+	33% {
+		transform:scale(0.8);
+	}
+
+	66% {
+		transform:scale(0.8);
+	}
+
+	100% {
+		transform:scale(1);
+	}
+}
+
+.grid2 button:hover {
+	animation-name: scaleButton;
+	animation-duration: 2s;
+}
+
 
 /*Styling our location*/
 

@@ -169,6 +169,33 @@ a:focus{
 }
 
 
+/*Animating button*/
+
+@keyframes scaleButton {
+	0% {
+		transform:scale(1);
+	}
+
+	33% {
+		transform:scale(1.2);
+	}
+
+	66% {
+		transform:scale(1.2);
+	}
+
+	100% {
+		transform:scale(1);
+	}
+}
+
+.header-container button:hover {
+	animation-name: scaleButton;
+	animation-duration: 2s;
+}
+
+
+
 /*Styling image*/
 
 .header-container img {
@@ -241,6 +268,31 @@ a:focus{
     box-shadow: 2px 8px 15px lightslategray;
     margin-bottom: 70px;
     margin-right:9%;
+}
+
+/*Animating button*/
+
+@keyframes scaleButton {
+	0% {
+		transform:scale(1);
+	}
+
+	33% {
+		transform:scale(1.2);
+	}
+
+	66% {
+		transform:scale(1.2);
+	}
+
+	100% {
+		transform:scale(1);
+	}
+}
+
+.discover1 button:hover {
+	animation-name: scaleButton;
+	animation-duration: 2s;
 }
 
 
@@ -340,6 +392,31 @@ a:focus{
     box-shadow: 2px 8px 15px lightslategray;
     margin-bottom: 70px;
     margin-right:9%;
+}
+
+/*Animating button*/
+
+@keyframes scaleButton {
+	0% {
+		transform:scale(1);
+	}
+
+	33% {
+		transform:scale(1.2);
+	}
+
+	66% {
+		transform:scale(1.2);
+	}
+
+	100% {
+		transform:scale(1);
+	}
+}
+
+.discover2 button:hover {
+	animation-name: scaleButton;
+	animation-duration: 2s;
 }
 
 

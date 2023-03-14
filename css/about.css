@@ -222,6 +222,57 @@ a:focus{
     display: none;
 }
 
+.restaurant-content {
+    opacity: 0%;
+}
+
+
+/*Animating services box 1*/
+@keyframes translateBox { 
+	from {
+		transform:translate(-150px, 0px);
+        opacity: 0%;
+	}
+
+	to {
+		transform:translate(0);
+        opacity:100%;
+	}
+}
+
+.restaurant-content {
+	animation-name: translateBox;
+	animation-delay:4s;
+    animation-fill-mode: forwards;
+	animation-duration: 4s;
+}
+
+
+.bowling-content {
+    opacity: 0%;
+}
+
+
+/*Animating services box 2*/
+@keyframes translateBox2 { 
+	from {
+		transform:translate(150px, 0px);
+        opacity: 0%;
+	}
+
+	to {
+		transform:translate(0);
+        opacity:100%;
+	}
+}
+
+.bowling-content {
+	animation-name: translateBox2;
+	animation-delay:4s;
+    animation-fill-mode: forwards;
+	animation-duration: 4s;
+}
+
 
 /*Styling gray banner*/
 
@@ -255,6 +306,30 @@ a:focus{
     margin-bottom:20px;
 }
 
+/*Animating button*/
+
+@keyframes scaleButton {
+	0% {
+		transform:scale(1);
+	}
+
+	33% {
+		transform:scale(1.2);
+	}
+
+	66% {
+		transform:scale(1.2);
+	}
+
+	100% {
+		transform:scale(1);
+	}
+}
+
+.banner button:hover {
+	animation-name: scaleButton;
+	animation-duration: 2s;
+}
 
 /*Styling rest of services*/
 
@@ -284,6 +359,58 @@ a:focus{
     line-height: 30pt;
     font-weight: 400;
     margin-bottom:30px;
+}
+
+
+.fitness-content {
+    opacity: 0%;
+}
+
+
+/*Animating services box 3*/
+@keyframes translateBox { 
+	from {
+		transform:translate(-150px, 0px);
+        opacity: 0%;
+	}
+
+	to {
+		transform:translate(0);
+        opacity:100%;
+	}
+}
+
+.fitness-content {
+	animation-name: translateBox;
+	animation-delay:7s;
+    animation-fill-mode: forwards;
+	animation-duration: 4s;
+}
+
+
+.climbing-content {
+    opacity: 0%;
+}
+
+
+/*Animating services box 4*/
+@keyframes translateBox2 { 
+	from {
+		transform:translate(150px, 0px);
+        opacity: 0%;
+	}
+
+	to {
+		transform:translate(0);
+        opacity:100%;
+	}
+}
+
+.climbing-content {
+	animation-name: translateBox2;
+	animation-delay:7s;
+    animation-fill-mode: forwards;
+	animation-duration: 4s;
 }
 
 
