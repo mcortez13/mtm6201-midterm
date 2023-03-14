@@ -21,33 +21,42 @@
 </head>
 
 <body>
-    <header>
-        <nav class="main-nav">
+    <div role="navigation" class="container-skip">
+        <ul class="skip-links">
+          <li><a href="#navigation" aria-label="Skip to the main nav bar">Skip to nav bar</a></li>
+          <li><a href="#about" aria-label="Skip to where the about section starts">Skip to about section</a></li>
+          <li><a href="#services" aria-label="Skip to where the services section starts">Skip to services section</a></li>
+          <li><a href="#thanks" aria-label="Skip to where the special thanks section starts">Skip to thanks section</a></li>
+        </ul>
+    </div>
+
+    <header role="banner">
+        <nav role="navigation" class="main-nav" id="navigation">
             <ul class="nav-bar">
                 <li class="logo"><img src="images/logo.svg" alt="ARC logo"></li>
-                <li class="home"><a href="index.html">Home</a></li>
-                <li class="about"><a href="about.html">About</a></li>
-                <li class="contact"><a href="contact.html">Contact</a></li>
+                <li class="home"><a href="index.html" aria-label="Goes to homepage">Home</a></li>
+                <li class="about"><a href="about.html" aria-label="Goes to about page">About</a></li>
+                <li class="contact"><a href="contact.html" aria-label="Goes to contact page">Contact</a></li>
             </ul>
         </nav>
 
         <div class="header-container">
             <!--Created another div to use flexbox-->
-            <div>
+            <div role="article">
                 <h1>What to expect during construction.</h1>
                 <p>With construction starting in April 2019 we anticipate the new arrival of the ARC building as early as August 2021.</p>
                 <p>The current SA Fitness Zone and gym will be operating and open as usual. Please visit the Fitness Zone and the Gymnasium for more information on the hours, offerings, and pricing.</p>
             </div>
 
-            <img src="images/construction.svg" alt="house construction illustration">
+            <img src="images/construction.svg" alt="house construction illustration" aria-details="maincontent" itemprop="image">
         </div>
     </header>
 
     <!--Start of main body content-->
-    <main>
-        <div class="about-section">
+    <main role="main">
+        <div role="article" class="about-section" id="about">
             <div class="about-header">
-                <img src="images/about.jpg" alt="about green banner">
+                <img src="images/about.jpg" alt="about green banner" aria-details="maincontent" itemprop="image">
                 <h1>About</h1>
             </div>
 
@@ -70,15 +79,15 @@
         </div>
 
         <!--Services section-->
-        <div class="services-section">
+        <div role="article" class="services-section" id="services">
             <div class="services-header">
-                <img src="images/services.jpg" alt="services green banner">
+                <img src="images/services.jpg" alt="services green banner" aria-details="maincontent" itemprop="image">
                 <h1>Services</h1>
             </div>
 
             <div class="services-grid1">
                 <div class="restaurant-content">  
-                    <img src="images/bar.jpg" alt="restaurant">
+                    <img src="images/bar.jpg" alt="restaurant" aria-details="maincontent" itemprop="image">
                     
                     <div class="grid1">
                         <h2>Need a break?</h2>
@@ -88,7 +97,7 @@
                 </div>
 
                 <div class="bowling-content">
-                    <img src="images/bowling.jpg" alt="bowling shoes">
+                    <img src="images/bowling.jpg" alt="bowling shoes" aria-details="maincontent" itemprop="image">
 
                     <div class="grid2">       
                         <h2>Competitive friends?</h2>
@@ -99,16 +108,16 @@
                 </div>    
             </div>
 
-            <div class="banner">
+            <div role="banner" class="banner">
                 <div class="banner-content">
                     <h2>Keep up to date with our newsletters</h2>
-                    <button>Subscribe</button>
+                    <button role="button" aria-label="Allows to subscribe">Subscribe</button>
                 </div>
             </div>
 
             <div class="services-grid2">
                 <div class="fitness-content">
-                    <img src="images/fitness.jpg" alt="man doing exercise at the gym">
+                    <img src="images/fitness.jpg" alt="man doing exercise at the gym" aria-details="maincontent" itemprop="image">
                     
                     <div class="grid3">
                         <h2>New year, new me.</h2>
@@ -118,7 +127,7 @@
                 </div>
 
                 <div class="climbing-content">
-                    <img src="images/climbing.jpg" alt="girl doing indoor rockcllimbing">
+                    <img src="images/climbing.jpg" alt="girl doing indoor rockcllimbing" aria-details="maincontent" itemprop="image">
                     
                     <div class="grid4">
                         <h2>Indoor climbing?</h2>
@@ -129,32 +138,32 @@
             </div>
         </div>
 
-        <div class="special-thank">
+        <div role="article" class="special-thank" id="thanks">
             <h1>Special thank you to the following</h1>
 
             <div class="images">
-                <img src="images/sa.png" alt="Student Association logo">
-                <img src="images/AC_ICON_FC_GRN_240x200.png" alt="Algonquin College logo">
-                <img src="images/pcl.png" alt="PCL logo">
-                <img src="images/cibc.png" alt="CIBC logo">
+                <img src="images/sa.png" alt="Student Association logo" aria-details="maincontent" itemprop="image">
+                <img src="images/AC_ICON_FC_GRN_240x200.png" alt="Algonquin College logo" aria-details="maincontent" itemprop="image">
+                <img src="images/pcl.png" alt="PCL logo" aria-details="maincontent" itemprop="image">
+                <img src="images/cibc.png" alt="CIBC logo" aria-details="maincontent" itemprop="image">
             </div>
         </div>
     </main>
 
     <!--end of main body content-->
 
-    <footer>
+    <footer role="contentinfo">
         <p>Follow Us</p>
         <div class="footer-buttons">
-            <button><i class='fab fa-facebook-square'></i></button>
-            <button><i class='fab fa-instagram'></i></button>
-            <button><i class='fab fa-twitter-square'></i></button>
-            <button><i class='fab fa-youtube'></i></button>
+            <button role="button" aria-label="Goes to facebook page"><i class='fab fa-facebook-square'></i></button>
+            <button role="button" aria-label="Goes to instagram page"><i class='fab fa-instagram'></i></button>
+            <button role="button" aria-label="Goes to twitter page"><i class='fab fa-twitter-square'></i></button>
+            <button role="button" aria-label="Goes to youtube page"><i class='fab fa-youtube'></i></button>
         </div>
 
         <br>
         
-        <button class="back-arrow"><i class='fas fa-arrow-circle-up'></i>Back to top</button>
+        <button role="button" aria-label="Goes back to top of the page" class="back-arrow"><i class='fas fa-arrow-circle-up'></i>Back to top</button>
     </footer>
 
 </body>

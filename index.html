@@ -21,18 +21,26 @@
 </head>
 
 <body>
-    <header>
-        <nav class="main-nav">
+    <div role="navigation" class="container-skip">
+        <ul class="skip-links">
+          <li><a href="#navigation" aria-label="Skip to the main nav bar">Skip to nav bar</a></li>
+          <li><a href="#discover1" aria-label="Skip to where the discover 1 section starts">Skip to discover 1 section</a></li>
+          <li><a href="#discover2" aria-label="Skip to where the discover 2 section starts">Skip to discover 2 section</a></li>
+        </ul>
+    </div>
+
+    <header role="banner">
+        <nav role="navigation" class="main-nav" id="navigation">
             <ul class="nav-bar">
                 <li class="logo"><img src="images/logo.svg" alt="ARC logo"></li>
-                <li class="home"><a href="index.html">Home</a></li>
-                <li class="about"><a href="about.html">About</a></li>
-                <li class="contact"><a href="contact.html">Contact</a></li>
+                <li class="home"><a href="index.html" aria-label="Goes to homepage">Home</a></li>
+                <li class="about"><a href="about.html" aria-label="Goes to about page">About</a></li>
+                <li class="contact"><a href="contact.html" aria-label="Goes to contact page">Contact</a></li>
             </ul>
         </nav>
 
         <div class="header-container">
-            <div>
+            <div role="article">
                 <h1>Discover Your ARC.</h1>
                 <p>With Algonquin College's newest facility, there's always something for everyone to discover and enjoy!</p>
 
@@ -61,10 +69,10 @@
                 
                 <br>
 
-                <button>Get Started</button>
+                <button role="button" aria-label="Goes to get started">Get Started</button>
             </div>
 
-            <img src="images/discover.svg">
+            <img src="images/discover.svg" alt="illustration of girl reading a book" aria-details="maincontent" itemprop="image">
         </div>
 
         <br><br><br>
@@ -72,54 +80,54 @@
         <span class="scroll">Scroll<br><i class='fas fa-arrow-circle-down'></i></span>
     </header>
 
-    <main>
-        <div class="discover1">
-            <img src="images/school.jpg">
+    <main role="main">
+        <div class="discover1" id="discover1">
+            <img src="images/school.jpg" alt="graduates" aria-details="maincontent" itemprop="image">
 
-            <div>
+            <div role="article">
                 <h2>Discover.</h2>
                 <h3>Algonquin College</h3>
                 <p>of Applied Arts and Technology is a publicly funded English-language college located in Ottawa, Ontario, Canada. The College serves the National Capital Region and the outlying areas of Eastern Ontario, Western Québec, and Upstate New York.</p>
-                <button>Learn More</button>
-            </div>
+                <button role="button" aria-label="Opens full page">Learn More</button>
+            </div> 
         </div>
 
         <br>
 
-        <div class="president">
-            <div class="block">
-                <img src="images/simon.jpg">
-                <h4>Dijanelle Simon <br> SA President</h4>
+        <div class="president" role="article">
+            <div class="block" itemscope itemtype="https://schema.org/Person">
+                <img src="images/simon.jpg" alt="portrait of Dijanelle Simon" aria-details="maincontent" itemprop="image">
+                <h4 itemprop="givenName">Dijanelle Simon <br itemprop="jobTitle"> SA President</h4>
             </div> 
             <p>"Only with increased capacity can we expand and create a more inclusive program that attracts a greater number of students to participate in physical and social activity. The Students' Association is committed to and focused on programming that results in our students taking person ownership for their health."</p>
         </div>
 
         <br>
 
-        <div class="discover2">
-            <img src="images/entertainment.jpg">
+        <div class="discover2" id="discover2">
+            <img src="images/entertainment.jpg" alt="couple of drinks at the bar" aria-details="maincontent" itemprop="image">
 
-            <div>
+            <div role="article">
                 <h2>Discover.</h2>
                 <h3>The entertaiment</h3>
                 <p>at Algonquin College is endless. We currently have the Algonquin Commons Theatre where we host a variety of events. Now with the coming of the ARC facility, not only will it be providing more space for the students to study, but it will also be bringing in more room for late-night entertainment.</p>
-                <button>Learn More</button>
+                <button role="button" aria-label="Opens full page">Learn More</button>
             </div>
         </div>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
         <p>Follow Us</p>
         <div class="footer-buttons">
-            <button><i class='fab fa-facebook-square'></i></button>
-            <button><i class='fab fa-instagram'></i></button>
-            <button><i class='fab fa-twitter-square'></i></button>
-            <button><i class='fab fa-youtube'></i></button>
+            <button role="button" aria-label="Goes to facebook page"><i class='fab fa-facebook-square'></i></button>
+            <button role="button" aria-label="Goes to instagram page"><i class='fab fa-instagram'></i></button>
+            <button role="button" aria-label="Goes to twitter page"><i class='fab fa-twitter-square'></i></button>
+            <button role="button" aria-label="Goes to youtube page"><i class='fab fa-youtube'></i></button>
         </div>
 
         <br>
         
-        <button class="back-arrow"><i class='fas fa-arrow-circle-up'></i>Back to top</button>
+        <button role="button" aria-label="Goes back to top of the page" class="back-arrow"><i class='fas fa-arrow-circle-up'></i>Back to top</button>
     </footer>
 </body>
 
