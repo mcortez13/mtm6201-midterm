@@ -56,7 +56,25 @@
     <main role="main">
         <div role="article" class="about-section" id="about">
             <div class="about-header">
-                <img src="images/about.jpg" alt="about green banner" aria-details="maincontent" itemprop="image">
+                <picture>
+                    <source srcset="images/about-992_x_200.jpg 1x,
+                    images/about-1984_x_400.jpg 2x,
+                    images/about-2976_x_600.jpg 3x" 
+                    media="(min-width: 992px)">
+        
+                    <source srcset="images/about-600_x_150.jpg 1x,
+                    images/about-1200_x_300.jpg 2x,
+                    images/about-1800_x_450.jpg 3x"
+                    media="(min-width: 600px)">
+                    
+                    <source srcset="images/about-320_x_240.jpg 1x,
+                    images/about-640_x_480.jpg 2x,
+                    images/about-960_x_720.jpg 3x"
+                    media="(min-width: 320px)">
+        
+                    <img src="images/about.jpg" alt="about green banner" aria-details="maincontent" itemprop="image">
+                </picture>
+                
                 <h1>About</h1>
             </div>
 
@@ -81,7 +99,25 @@
         <!--Services section-->
         <div role="article" class="services-section" id="services">
             <div class="services-header">
-                <img src="images/services.jpg" alt="services green banner" aria-details="maincontent" itemprop="image">
+                <picture>
+                    <source srcset="images/services-992_x_200.jpg 1x,
+                    images/services-1984_x_400.jpg 2x,
+                    images/services-2976_x_600.jpg 3x" 
+                    media="(min-width: 992px)">
+        
+                    <source srcset="images/services-600_x_150.jpg 1x,
+                    images/services-1200_x_300.jpg 2x,
+                    images/services-1800_x_450.jpg 3x"
+                    media="(min-width: 600px)">
+                    
+                    <source srcset="images/services-320_x_240.jpg 1x,
+                    images/services-640_x_480.jpg 2x,
+                    images/services-960_x_720.jpg 3x"
+                    media="(min-width: 320px)">
+        
+                    <img src="images/services.jpg" alt="services green banner" aria-details="maincontent" itemprop="image">
+                </picture>
+                
                 <h1>Services</h1>
             </div>
 
@@ -155,15 +191,15 @@
     <footer role="contentinfo">
         <p>Follow Us</p>
         <div class="footer-buttons">
-            <button role="button" aria-label="Goes to facebook page"><i class='fab fa-facebook-square'></i></button>
-            <button role="button" aria-label="Goes to instagram page"><i class='fab fa-instagram'></i></button>
-            <button role="button" aria-label="Goes to twitter page"><i class='fab fa-twitter-square'></i></button>
-            <button role="button" aria-label="Goes to youtube page"><i class='fab fa-youtube'></i></button>
+            <button role="button" aria-label="Goes to facebook page"><a href="https://www.facebook.com/" target="_blank"><i class='fab fa-facebook-square'></i></a></button>
+            <button role="button" aria-label="Goes to instagram page"><a href="https://www.instagram.com/?hl=en" target="_blank"><i class='fab fa-instagram'></i></a></button>
+            <button role="button" aria-label="Goes to twitter page"><a href="https://twitter.com/" target="_blank"><i class='fab fa-twitter-square'></i></a></button>
+            <button role="button" aria-label="Goes to youtube page"><a href="https://www.youtube.com/" target="_blank"><i class='fab fa-youtube'></i></a></button>
         </div>
 
         <br>
         
-        <button role="button" aria-label="Goes back to top of the page" class="back-arrow"><i class='fas fa-arrow-circle-up'></i>Back to top</button>
+        <button role="button" aria-label="Goes back to top of the page" class="back-arrow"><a href="#navigation"><i class='fas fa-arrow-circle-up'></i></a>Back to top</button>
     </footer>
 
 </body>

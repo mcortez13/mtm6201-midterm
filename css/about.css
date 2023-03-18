@@ -478,6 +478,13 @@ footer p {
 }
 
 
+/*To remove underline from social media links*/
+
+.footer-buttons a:link {
+    text-decoration: none;
+}
+
+
 /*Styling back to top arrow*/
 
 .back-arrow {

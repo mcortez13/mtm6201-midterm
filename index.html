@@ -71,7 +71,7 @@
 
                 <button role="button" aria-label="Goes to get started">Get Started</button>
             </div>
-
+ 
             <img src="images/discover.svg" alt="illustration of girl reading a book" aria-details="maincontent" itemprop="image">
         </div>
 
@@ -82,7 +82,24 @@
 
     <main role="main">
         <div class="discover1" id="discover1">
-            <img src="images/school.jpg" alt="graduates" aria-details="maincontent" itemprop="image">
+            <picture>
+                <source srcset="images/school-992_x_659.jpg 1x,
+                images/school-1984_x_1319.jpg 2x,
+                images/school-2976_x_1978.jpg 3x" 
+                media="(min-width: 992px)">
+    
+                <source srcset="images/school-600_x_150.jpg 1x,
+                images/school-1200_x_300.jpg 2x,
+                images/school-1800_x_450.jpg 3x"
+                media="(min-width: 600px)">
+                
+                <source srcset="images/school-320_x_240.jpg 1x,
+                images/school-640_x_480.jpg 2x,
+                images/school-960_x_720.jpg 3x"
+                media="(min-width: 320px)">
+    
+                <img src="images/school.jpg" alt="graduates" aria-details="maincontent" itemprop="image">
+            </picture>
 
             <div role="article">
                 <h2>Discover.</h2>
@@ -105,7 +122,24 @@
         <br>
 
         <div class="discover2" id="discover2">
-            <img src="images/entertainment.jpg" alt="couple of drinks at the bar" aria-details="maincontent" itemprop="image">
+            <picture>
+                <source srcset="images/entertainment-992_x_661.jpg 1x,
+                images/entertainment-1984_x_1322.jpg 2x,
+                images/entertainment-2976_x_1984.jpg 3x" 
+                media="(min-width: 992px)">
+    
+                <source srcset="images/entertainment-600_x_150.jpg 1x,
+                images/entertainment-1200_x_300.jpg 2x,
+                images/entertainment-1800_x_450.jpg 3x"
+                media="(min-width: 600px)">
+                
+                <source srcset="images/entertainment-320_x_240.jpg 1x,
+                images/entertainment-640_x_480.jpg 2x,
+                images/entertainment-960_x_720.jpg 3x"
+                media="(min-width: 320px)">
+    
+                <img src="images/entertainment.jpg" alt="couple of drinks at the bar" aria-details="maincontent" itemprop="image">
+            </picture>
 
             <div role="article">
                 <h2>Discover.</h2>
@@ -119,15 +153,15 @@
     <footer role="contentinfo">
         <p>Follow Us</p>
         <div class="footer-buttons">
-            <button role="button" aria-label="Goes to facebook page"><i class='fab fa-facebook-square'></i></button>
-            <button role="button" aria-label="Goes to instagram page"><i class='fab fa-instagram'></i></button>
-            <button role="button" aria-label="Goes to twitter page"><i class='fab fa-twitter-square'></i></button>
-            <button role="button" aria-label="Goes to youtube page"><i class='fab fa-youtube'></i></button>
+            <button role="button" aria-label="Goes to facebook page"><a href="https://www.facebook.com/" target="_blank"><i class='fab fa-facebook-square'></i></a></button>
+            <button role="button" aria-label="Goes to instagram page"><a href="https://www.instagram.com/?hl=en" target="_blank"><i class='fab fa-instagram'></i></a></button>
+            <button role="button" aria-label="Goes to twitter page"><a href="https://twitter.com/" target="_blank"><i class='fab fa-twitter-square'></i></a></button>
+            <button role="button" aria-label="Goes to youtube page"><a href="https://www.youtube.com/" target="_blank"><i class='fab fa-youtube'></i></a></button>
         </div>
 
         <br>
         
-        <button role="button" aria-label="Goes back to top of the page" class="back-arrow"><i class='fas fa-arrow-circle-up'></i>Back to top</button>
+        <button role="button" aria-label="Goes back to top of the page" class="back-arrow"><a href="#navigation"><i class='fas fa-arrow-circle-up'></i></a>Back to top</button>
     </footer>
 </body>
 
